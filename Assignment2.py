@@ -22,9 +22,7 @@ def remove_duplicates_and_sort(numbers):
     result = []
 
     for i in numbers:
-
         if i not in result:
-
             result.append(i)
 
     result.sort()
@@ -35,6 +33,7 @@ def remove_duplicates_and_sort(numbers):
 def cumulative_sum(arr):
 
     result = []
+
     sum = 0
 
     for i in arr:
@@ -76,7 +75,6 @@ def dot_product(list1, list2):
     dot_product = 0
 
     for x , y in pair:
-
         dot_product += x * y
 
     return dot_product
@@ -84,7 +82,7 @@ def dot_product(list1, list2):
 
 # Function 7: Arithmetic Operations with Arrays - Matrix Multiplication
 # This function takes two 2D lists (matrices) and returns their matrix product.
-import numpy 
+ 
 
 def matrix_multiplication(matrix1, matrix2):
   
